@@ -1,0 +1,82 @@
+body{
+  height: 100%;
+  padding: 0;
+  background-color: black;
+}
+
+.navlink{
+  color: white;
+  font-family: "Great Vibes", serif;
+  text-decoration: none;
+  font-size: 3em;
+  margin-left: 15px;
+  margin-top: 5px;
+  float: left;
+}
+.fa {
+  padding: 13px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-facebook:hover{
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-twitter:hover{
+  color: #00ACEE;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover{
+  background: linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h1{
+  font-family: "Great Vibes", serif;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 7px;
+  margin-top: 116px;
+  transform: rotate(-6deg);
+}
+
+p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  margin-left: 85px;
+  margin-top: -15px;
+  margin-right: 60px;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}

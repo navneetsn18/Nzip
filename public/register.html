@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5d04865753d10a56bd7a304d/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles-register.css">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+      <a href="/" class="navlink">Nzip</a>
+      <a href="https://www.github.com/navneetsn18" class="fa fa-github" style="float:right; font-size: 36px;" target="blank"></a>
+      <a href="https://www.facebook.com/navneetsn18" class="fa fa-facebook" style="float:right" target="blank"></a>   
+      <a href="https://twitter.com/navneetsn18/" class="fa fa-twitter" style="float:right" target="blank"></a>
+      <a href="https://www.instagram.com/navneetsn18/" class="fa fa-instagram" style="float:right" target="blank"></a>
+    </nav>
+    <br>
+    <h1>Register</h1>
+    <div class="container">
+        <form action="/reg-success" method ="POST" onsubmit="return Validate();" name="vform">
+            <input type="text" name="name" placeholder="Name" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <br>
+            <div id="password_div">
+              <input type="password" name="password" placeholder="Password"  id="pass" required minlength="4">
+            </div>
+            <br>
+            <div id="pass_confirm_div">
+              <input type="password" name="re-password" id="re-password"  id="repass" placeholder="Re-Enter password" required>
+              <div id="password_error"></div>
+            </div>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <script src="/js/pass-verify.js"></script>
+</body>
+</html>

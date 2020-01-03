@@ -1,0 +1,130 @@
+body{
+  height: 100%;
+  padding: 0;
+  background-color: black;
+}
+
+.navlink{
+  color: white;
+  font-family: "Great Vibes", serif;
+  text-decoration: none;
+  font-size: 3em;
+  margin-left: 15px;
+  margin-top: 5px;
+  float: left;
+}
+.fa {
+  padding: 13px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-facebook:hover{
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-twitter:hover{
+  color: #00ACEE;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover{
+  background: linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signout{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-top: 22px;
+  background: linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+h1{
+  font-family: "Great Vibes", serif;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 7px;
+  margin-top: 116px;
+  transform: rotate(-6deg);
+}
+
+p,h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  margin-left: 85px;
+  margin-top: -15px;
+  margin-right: 60px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: -10px;
+}
+
+.upfile{
+  background: black;
+  display: block;
+  margin: 28px;
+  text-align: center;
+  border: 2.25px solid #FFE0D4;
+  padding: 20px 29px;
+  outline: none;
+  color: white;
+  border-radius: 17px;
+  transition: 0.25s;
+  margin-top: -10px;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
+.button{
+  background-color: white;
+  font-family: 'Roboto Slab', serif;
+  border: 2px solid #555;
+  color: black;
+  outline:none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 35px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:12px;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}

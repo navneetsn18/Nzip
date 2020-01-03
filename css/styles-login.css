@@ -1,0 +1,110 @@
+body{
+    height: 100%;
+    padding: 0;
+    background-color: black;
+  }
+  
+  .navlink{
+    color: white;
+    font-family: "Great Vibes", serif;
+    text-decoration: none;
+    font-size: 3em;
+    margin-left: 15px;
+    margin-top: 5px;
+    float: left;
+  }
+  .fa {
+    padding: 13px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  .fa-facebook:hover{
+    color: #3b5998;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-twitter:hover{
+    color: #00ACEE;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  
+  .fa-instagram:hover{
+    background: linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  h1{
+    font-family: "Great Vibes", serif;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    letter-spacing: 7px;
+    margin-top: 116px;
+    transform: rotate(-6deg);
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -10px;
+  }
+  
+.container input[type="email"],.container input[type="password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-family: 'Roboto Slab', serif;
+}
+.container input[type="email"]:focus,.container input[type="password"]:focus{
+  width: 380px;
+  border-color: #2ecc71;
+}
+.container input[type="submit"]{
+  border: 0;
+  background-color: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #555;
+  padding: 14px 25px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-size: 17px;
+  font-family: 'Roboto Slab', serif;    
+}
+.container input[type="submit"]:hover{
+    background-color: #555555;
+    color: white;
+}
