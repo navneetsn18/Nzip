@@ -18,7 +18,7 @@
     "nodemon": "^1.19.4",
     "unzip": "^0.1.11",
     "zip-dir": "^1.0.2",
-    "zip-local": "^0.3.4"
+    "zip-local": "^0.3.5"
   },
   "devDependencies": {},
   "scripts": {
